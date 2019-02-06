@@ -18,7 +18,7 @@ $ gem install bundler
 5. Bundle install
 
 ``` 
-$ cd PATH of Repo on your machine /automate
+$ cd PATH of Repo on your machine /automate-chrome/automate
 $ bundle install
 ```
 
@@ -29,6 +29,6 @@ $ bundle install
 
 ## How to run automate
 ``` 
-$ cd PATH of Repo on your machine /automate
+$ cd PATH of Repo on your machine /automate-chrome/automate
 $ cucumber features/task.feature
 ```
