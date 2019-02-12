@@ -5,6 +5,7 @@ end
 When("fill task name with {string}") do |name|
   expect(page).to have_css("#new-task-name", :visible => true)
 	find("#new-task-name").set name
+	sleep 5
 end
 
 When("edit task name to {string}") do |name|
